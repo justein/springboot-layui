@@ -32,3 +32,22 @@ function login(){
         }
     });
 }
+
+function addPeople() {
+
+    var html ="<div class=\"layui-form-item\">\n"+
+        "<label class=\"layui-form-label\">姓名：</label>\n" +
+        "                <div class=\"layui-input-inline\">\n" +
+        "                    <input type=\"password\" name=\"password\" required lay-verify=\"required\" placeholder=\"请输入姓名\" autocomplete=\"off\" class=\"layui-input\">\n" +
+        "                </div>\n" +
+        "                <label class=\"layui-form-label\">身份证号：</label>\n" +
+        "                <div class=\"layui-input-inline\">\n" +
+        "                    <input type=\"password\" name=\"password\" required lay-verify=\"required\" placeholder=\"请输入身份证号\" autocomplete=\"off\" class=\"layui-input\">\n" +
+        "                </div>\n" +
+        "                <label class=\"layui-form-label\">手机号：</label>\n" +
+        "                <div class=\"layui-input-inline\">\n" +
+        "                    <input type=\"password\" name=\"password\" required lay-verify=\"required\" placeholder=\"请输入手机号\" autocomplete=\"off\" class=\"layui-input\">\n" +
+        "                </div></div>"
+    $("#peoples").append(html);
+
+}

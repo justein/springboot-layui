@@ -33,7 +33,7 @@ import java.util.Map;
  * @version: 1.0
  * @date: 2018/9/11 10:33
  */
-@Configuration
+//@Configuration
 public class ShiroConfig {
 
 
